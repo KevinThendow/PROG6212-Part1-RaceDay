@@ -40,3 +40,24 @@ RaceDay/
 └── .github/
     └── workflows/
         └── part1-ci.yml
+
+## Database Setup
+
+The RaceDay database was created for Microsoft SQL Server and can be executed using SQL Server Management Studio (SSMS).
+
+### Requirements
+
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+
+### How to Run the Database Script
+
+1. Open SQL Server Management Studio.
+2. Connect to your SQL Server instance.
+3. Open the file `docs/RaceDay_Database.sql`.
+4. Click **Execute** or press **F5**.
+5. Confirm that the script completes without errors.
+6. Refresh the **Databases** folder.
+7. Expand `RaceDayDB`.
+8. Open the **Tables** folder and confirm that the RaceDay tables were created.
+9. Run the provided `SELECT` statements to verify the sample data.

@@ -1,4 +1,25 @@
 /*==========================================================
+  RaceDay Database Design Summary
+
+  Users:
+  Stores both Organisers and Participants.
+
+  Events:
+  Stores events created by Organisers.
+
+  Categories:
+  Stores age or distance categories linked to Events.
+
+  Routes:
+  Stores route information linked to Events.
+
+  Enrolments:
+  Connects Participants to Events and Categories.
+
+  Results:
+  Stores finish time and finishing position for Enrolments.
+==========================================================*/
+/*==========================================================
   PROG6212 - Programming 2B
   PoE Part 1 - Section C
   RaceDay Event Management System Database

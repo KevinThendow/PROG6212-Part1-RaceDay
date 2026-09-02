@@ -56,7 +56,21 @@ GO
 ------------------------------------------------------------
 -- 3. CREATE USERS TABLE
 ------------------------------------------------------------
+/*==========================================================
+  Database Constraints
 
+  The RaceDay database uses constraints to protect data quality.
+
+  - PRIMARY KEY ensures each record has a unique identifier.
+  - FOREIGN KEY keeps relationships between tables valid.
+  - NOT NULL ensures required information is provided.
+  - UNIQUE prevents duplicate values such as email addresses.
+  - DEFAULT supplies values automatically where appropriate.
+  - CHECK restricts values to valid options such as:
+      * User roles: Organiser or Participant
+      * Event types: Run, Walk or Cycle
+      * Enrolment status: Pending, Confirmed or Cancelled
+==========================================================*/
 CREATE TABLE Users
 (
     UserID INT IDENTITY(1,1) PRIMARY KEY,

@@ -70,3 +70,9 @@ The workflow file is located at:
 
 ```text
 .github/workflows/part1-ci.yml
+
+## CI/CD Build Screenshot
+
+The screenshot below shows the successful GitHub Actions validation for Part 1.
+
+![Successful GitHub Actions Build](docs/images/ci-green-build.png)

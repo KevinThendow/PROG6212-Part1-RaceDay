@@ -61,3 +61,12 @@ The RaceDay database was created for Microsoft SQL Server and can be executed us
 7. Expand `RaceDayDB`.
 8. Open the **Tables** folder and confirm that the RaceDay tables were created.
 9. Run the provided `SELECT` statements to verify the sample data.
+
+## CI/CD
+
+GitHub Actions is used to validate the Part 1 repository structure and confirm that all required submission files are present.
+
+The workflow file is located at:
+
+```text
+.github/workflows/part1-ci.yml

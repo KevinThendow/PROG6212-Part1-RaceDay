@@ -24,3 +24,19 @@ Participants can:
 - Select an event category.
 - View their own enrolments.
 - View their own race results and performance history.
+
+## Repository Structure
+
+```text
+RaceDay/
+│
+├── README.md
+│
+├── docs/
+│   ├── RaceDay_ERD.pdf
+│   ├── RaceDay_API_Endpoint_Plan.pdf
+│   └── RaceDay_Database.sql
+│
+└── .github/
+    └── workflows/
+        └── part1-ci.yml

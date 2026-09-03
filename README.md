@@ -50,6 +50,31 @@ The RaceDay database was created for Microsoft SQL Server and can be executed us
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
 
+## Entity Relationship Diagram (ERD)
+
+The RaceDay ERD represents the database structure used to support the system.
+
+The database contains six main entities:
+
+- **User** – stores both Organiser and Participant account information.
+- **Event** – stores event information created and managed by Organisers.
+- **Category** – stores age or distance categories linked to specific Events.
+- **Route** – stores route information for Events.
+- **Enrolment** – links Participants to Events and the Category they selected.
+- **Result** – stores finish times and finishing positions for Participant enrolments.
+
+### Main Relationships
+
+- One Organiser can create many Events.
+- One Event can have many Categories.
+- One Event can have many Routes.
+- One Participant can have many Enrolments.
+- One Event can have many Enrolments.
+- One Category can be selected by many Enrolments.
+- One Enrolment can have zero or one Result.
+
+The ERD also identifies all primary keys, foreign keys, and relationship cardinalities. The SQL database script is designed to match this ERD.
+
 ### How to Run the Database Script
 
 1. Open SQL Server Management Studio.

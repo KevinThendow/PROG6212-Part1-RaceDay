@@ -101,3 +101,36 @@ The workflow file is located at:
 The screenshot below shows the successful GitHub Actions validation for Part 1.
 
 ![Successful GitHub Actions Build](docs/images/ci-green-build.png)
+
+## API Endpoint Plan
+
+The API Endpoint Plan defines the RESTful operations that will be implemented in Part 2 of the RaceDay system.
+
+The plan covers the following functional areas:
+
+- Authentication
+- User Profile
+- Events
+- Categories
+- Event Enrolments
+- Results
+
+Each endpoint includes:
+
+- HTTP Method
+- Route
+- Description
+- Role Required
+- Request Body
+- Expected Response
+
+### Role-Based Access
+
+RaceDay uses role-based access to separate Organiser and Participant functionality.
+
+- **Public endpoints** allow users to register, log in, and browse available events.
+- **Authenticated endpoints** allow logged-in users to view or update their profiles.
+- **Organiser endpoints** allow Organisers to create, update, and delete events, manage categories, view event enrolments, and capture results.
+- **Participant endpoints** allow Participants to enrol in events and view their own enrolments and race results.
+
+The endpoint plan is intended to act as the specification for the RESTful API that will be developed in Part 2.

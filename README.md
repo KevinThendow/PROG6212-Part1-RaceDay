@@ -173,3 +173,14 @@ YouTube Link:
 - Make sure the video section is included
 - Check that Organiser and Participant descriptions are clear
 - Check that the database setup instructions are complete
+
+## Author
+
+Student Name: Kevin Thendo Rasilingwane
+
+Student Number: ST10495040
+
+Module: PROG6212 - Programming 2B
+
+Assessment: Portfolio of Evidence - Part 1
+

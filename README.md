@@ -134,7 +134,35 @@ RaceDay uses role-based access to separate Organiser and Participant functionali
 - **Participant endpoints** allow Participants to enrol in events and view their own enrolments and race results.
 
 The endpoint plan is intended to act as the specification for the RESTful API that will be developed in Part 2.
+Video Demonstration
 
+The Part 1 video demonstration explains:
+
+The RaceDay system
+
+Repository structure
+
+ERD entities and relationships
+
+Primary and foreign keys
+
+Cardinality
+
+API Endpoint Plan
+
+Role-based endpoint access
+
+SQL database structure
+
+Constraints and relationships
+
+Live execution of the SQL script in SSMS
+
+Sample database records
+
+Successful GitHub Actions build
+
+YouTube Link:
 - Fix spelling and grammar mistakes in README.md
 - Make headings consistent
 - Check that all filenames in README match the actual repository files

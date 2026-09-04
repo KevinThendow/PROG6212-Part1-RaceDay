@@ -27,7 +27,7 @@ Participants can:
 
 ## Repository Structure
 
-```text
+
 RaceDay/
 │
 ├── README.md
@@ -93,7 +93,7 @@ GitHub Actions is used to validate the Part 1 repository structure and confirm t
 
 The workflow file is located at:
 
-```text
+
 .github/workflows/part1-ci.yml
 
 ## CI/CD Build Screenshot
@@ -134,3 +134,14 @@ RaceDay uses role-based access to separate Organiser and Participant functionali
 - **Participant endpoints** allow Participants to enrol in events and view their own enrolments and race results.
 
 The endpoint plan is intended to act as the specification for the RESTful API that will be developed in Part 2.
+
+- Fix spelling and grammar mistakes in README.md
+- Make headings consistent
+- Check that all filenames in README match the actual repository files
+- Confirm RaceDay_ERD.pdf is referenced correctly
+- Confirm RaceDay_API_Endpoint_Plan.pdf is referenced correctly
+- Confirm RaceDay_Database.sql is referenced correctly
+- Make sure the CI/CD screenshot path works
+- Make sure the video section is included
+- Check that Organiser and Participant descriptions are clear
+- Check that the database setup instructions are complete

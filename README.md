@@ -162,7 +162,8 @@ Sample database records
 
 Successful GitHub Actions build
 
-YouTube Link:
+YouTube Link: https://youtu.be/74FynxRkq80
+
 - Fix spelling and grammar mistakes in README.md
 - Make headings consistent
 - Check that all filenames in README match the actual repository files
